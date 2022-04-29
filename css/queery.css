@@ -1,10 +1,26 @@
 @media screen and (max-width: 480px){
+    /* h1 { 
+        font-size: 2.7rem;
+    }
+
+    h2{
+        font-size: 2.3rem;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }*/
+
     /* sections lessons */
     .container{
         width: 100%;
     }
     
-    .lessons .row{
+    .row{
         flex-direction: column;
         gap: 3rem;
     }
@@ -14,7 +30,29 @@
     }
 
     /* section steps */
-    
+    .steps{
+        margin-bottom: 0;
+    }
 
+    .steps .col{
+        width: 100%;
+    }
+
+
+    /* section why us */
+    .why-us{
+        background-color: #222222;
+        padding-top: 3rem;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
 
 }
